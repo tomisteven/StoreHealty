@@ -40,9 +40,7 @@ export default function CreateNewProduct() {
                     <input onChange={handleTextChange} className='product-form-input' type="file" name="image" id="image"/>
                     <div className='product-form-title'>Precio</div>
                     <input onChange={handleTextChange} className='product-form-input' type="text" name="price" id="price"/>
-                    <button type='submit' onClick={()=> {
-                        window.location.href = '/'
-                    }} className='product-form-button'>Crear</button>
+                    <button type='submit' className='product-form-button'>Crear</button>
                 </form>
                 </div>
                 <Link to={"/"}>

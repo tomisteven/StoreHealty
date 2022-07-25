@@ -142,6 +142,7 @@
     align-items: center;
     letter-spacing: 1px;
     color: #f5f5f5;
+    text-decoration: none;
 }
 .li-btn-edit{
     background-color: #3489ff;
@@ -184,3 +185,41 @@
 
 }
 
+
+
+
+/* responsive */
+@media screen and (max-width: 600px) {
+   
+    .ul-list-products{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 2fr); 
+        margin: auto;
+    }
+    .cont-product{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .li-img{
+        width: 300px;
+        height: 300px;
+    }
+    .btn-administrar{
+        width: 40%;
+    }
+    .btn-newproduct{
+        width: 40%;
+    }
+    .cont-btn-actions-init{
+        width: 100%;
+        justify-content: center;
+    }
+    .cont-search{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .input-search-products{
+        width: 50%;
+    }
+}
